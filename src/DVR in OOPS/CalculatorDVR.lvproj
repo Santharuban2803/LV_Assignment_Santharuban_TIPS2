@@ -29,21 +29,24 @@
 						<Item Name="Subtract.lvclass" Type="LVClass" URL="../Classes/Children/Subtract/Subtract.lvclass"/>
 					</Item>
 				</Item>
-				<Item Name="SubVI" Type="Folder">
-					<Item Name="QueueDriver.vi" Type="VI" URL="../Classes/SubVI/QueueDriver.vi"/>
-				</Item>
-				<Item Name="Typedef" Type="Folder">
-					<Item Name="ArithOperations.ctl" Type="VI" URL="../Classes/Typedef/ArithOperations.ctl"/>
-					<Item Name="ClassClusters.ctl" Type="VI" URL="../Classes/Typedef/ClassClusters.ctl"/>
-					<Item Name="DVRcluster.ctl" Type="VI" URL="../Classes/Typedef/DVRcluster.ctl"/>
-					<Item Name="DVRInstances.ctl" Type="VI" URL="../Classes/Typedef/DVRInstances.ctl"/>
-					<Item Name="InstancesArray.ctl" Type="VI" URL="../Classes/Typedef/InstancesArray.ctl"/>
-					<Item Name="OperationsCluster.ctl" Type="VI" URL="../Classes/Typedef/OperationsCluster.ctl"/>
-					<Item Name="QueueOperations.ctl" Type="VI" URL="../Classes/Typedef/QueueOperations.ctl"/>
-				</Item>
-				<Item Name="CalcDatas.xml" Type="Document" URL="../Classes/CalcDatas.xml"/>
 			</Item>
-			<Item Name="Main.vi" Type="VI" URL="../Classes/Main.vi"/>
+			<Item Name="SubVI" Type="Folder">
+				<Item Name="QueueDriver.vi" Type="VI" URL="../Classes/SubVI/QueueDriver.vi"/>
+			</Item>
+			<Item Name="Typedef" Type="Folder">
+				<Item Name="ArithOperations.ctl" Type="VI" URL="../Classes/Typedef/ArithOperations.ctl"/>
+				<Item Name="ClassClusters.ctl" Type="VI" URL="../Classes/Typedef/ClassClusters.ctl"/>
+				<Item Name="DVRcluster.ctl" Type="VI" URL="../Classes/Typedef/DVRcluster.ctl"/>
+				<Item Name="DVRInstances.ctl" Type="VI" URL="../Classes/Typedef/DVRInstances.ctl"/>
+				<Item Name="InstancesArray.ctl" Type="VI" URL="../Classes/Typedef/InstancesArray.ctl"/>
+				<Item Name="OperationsCluster.ctl" Type="VI" URL="../Classes/Typedef/OperationsCluster.ctl"/>
+				<Item Name="QueueOperations.ctl" Type="VI" URL="../Classes/Typedef/QueueOperations.ctl"/>
+			</Item>
+			<Item Name="XML File" Type="Folder">
+				<Item Name="CalcDatas.xml" Type="Document" URL="../Classes/XML File/CalcDatas.xml"/>
+				<Item Name="Saved Instances.txt" Type="Document" URL="../Classes/XML File/Saved Instances.txt"/>
+			</Item>
+			<Item Name="CalculatorMain.vi" Type="VI" URL="../Classes/CalculatorMain.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -58,13 +61,13 @@
 				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
 				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
