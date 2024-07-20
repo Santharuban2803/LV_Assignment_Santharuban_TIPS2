@@ -1,0 +1,55 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>23.3.3f3</Version>
+<Array>
+<Name>Instances Array</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Tag</Name>
+<Val>Subtract_0</Val>
+</String>
+<Object>
+<Name>Operation data</Name>
+<NumLevels>1</NumLevels>
+<Class>Arithmetic.lvclass</Class>
+<Version>0.0.0.0</Version>
+</Object>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Tag</Name>
+<Val>Subtract_0</Val>
+</String>
+<Object>
+<Name>Operation data</Name>
+<NumLevels>2</NumLevels>
+<Class>Subtract.lvclass</Class>
+<Version>1.0.0.3</Version>
+<Version>1.0.0.3</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Subtract.lvclass</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>A</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>B</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>C</Name>
+<Val>-1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+</Cluster>
+</Array>
+</LVData>
