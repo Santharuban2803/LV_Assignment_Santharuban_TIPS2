@@ -13,17 +13,25 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Larger OOPS Application" Type="Folder">
 			<Item Name="Classes" Type="Folder">
-				<Item Name="Communication.lvclass" Type="LVClass" URL="../Classes/Communication/Communication.lvclass"/>
-				<Item Name="Data.lvclass" Type="LVClass" URL="../Classes/Data/Data.lvclass"/>
-				<Item Name="Numeric.lvclass" Type="LVClass" URL="../Classes/Data/Child/Numeric/Numeric.lvclass"/>
-				<Item Name="Receiver.lvclass" Type="LVClass" URL="../Classes/Receiver/Receiver.lvclass"/>
-				<Item Name="Sender.lvclass" Type="LVClass" URL="../Classes/Sender/Sender.lvclass"/>
-				<Item Name="String.lvclass" Type="LVClass" URL="../Classes/Data/Child/String/String.lvclass"/>
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Child" Type="Folder">
+					<Item Name="Normal Com.lvclass" Type="LVClass" URL="../Classes/Communication/Children/Normal Com/Normal Com.lvclass"/>
+					<Item Name="Numeric.lvclass" Type="LVClass" URL="../Classes/Data/Child/Numeric/Numeric.lvclass"/>
+					<Item Name="TCP Com.lvclass" Type="LVClass" URL="../Classes/Communication/Children/TCP Com/TCP Com.lvclass"/>
+					<Item Name="String.lvclass" Type="LVClass" URL="../Classes/Data/Child/String/String.lvclass"/>
+				</Item>
+				<Item Name="Parent" Type="Folder">
+					<Item Name="Communication.lvclass" Type="LVClass" URL="../Classes/Communication/Communication.lvclass"/>
+					<Item Name="Data.lvclass" Type="LVClass" URL="../Classes/Data/Data.lvclass"/>
+					<Item Name="Receiver.lvclass" Type="LVClass" URL="../Classes/Receiver/Receiver.lvclass"/>
+					<Item Name="Sender.lvclass" Type="LVClass" URL="../Classes/Sender/Sender.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="ReceiveQueueDriver.vi" Type="VI" URL="../SubVI/ReceiveQueueDriver.vi"/>
 				<Item Name="SenderQueueDriver.vi" Type="VI" URL="../SubVI/SenderQueueDriver.vi"/>
 				<Item Name="UserEventLV2.vi" Type="VI" URL="../SubVI/UserEventLV2.vi"/>
+				<Item Name="ViewerQueueDriver.vi" Type="VI" URL="../SubVI/ViewerQueueDriver.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="DataType.ctl" Type="VI" URL="../TypeDefs/DataType.ctl"/>
@@ -33,15 +41,15 @@
 				<Item Name="SenderDataType.ctl" Type="VI" URL="../TypeDefs/SenderDataType.ctl"/>
 				<Item Name="SenderQueueOperations.ctl" Type="VI" URL="../TypeDefs/SenderQueueOperations.ctl"/>
 				<Item Name="SenderStateDataCluster.ctl" Type="VI" URL="../TypeDefs/SenderStateDataCluster.ctl"/>
+				<Item Name="SenderTagRef.ctl" Type="VI" URL="../TypeDefs/SenderTagRef.ctl"/>
 				<Item Name="TransmissionType.ctl" Type="VI" URL="../TypeDefs/TransmissionType.ctl"/>
 				<Item Name="UserEventDataCluster.ctl" Type="VI" URL="../TypeDefs/UserEventDataCluster.ctl"/>
 				<Item Name="UserEventOperations.ctl" Type="VI" URL="../TypeDefs/UserEventOperations.ctl"/>
+				<Item Name="ViewerStateDataCluster.ctl" Type="VI" URL="../TypeDefs/ViewerStateDataCluster.ctl"/>
 			</Item>
 			<Item Name="Viewer UI" Type="Folder">
 				<Item Name="ViewerUI.vi" Type="VI" URL="../ViewerUI.vi"/>
 			</Item>
-			<Item Name="ReceiverTCp.vi" Type="VI" URL="../ReceiverTCp.vi"/>
-			<Item Name="SenderTCP.vi" Type="VI" URL="../SenderTCP.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
